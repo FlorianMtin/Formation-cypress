@@ -18,6 +18,7 @@ class loginPage{
     }
 
     login = (username,password) => {
+        //On appelle les différentes fonctions
         this.inputUsername.type(username);
         this.inputPassword.type(password);
         this.submitButton.click();

@@ -15,7 +15,7 @@ describe('Suite de test Request',  () =>{
 
 
         cy.get('@User').then((user) => {
-            myloginPage.login(user.username, user.password);
+            myloginPage.login(user.username, user.password);  // Fait appel à la fonction loginPage
           })
         
         myApi.tryApi().then(({body}) => {

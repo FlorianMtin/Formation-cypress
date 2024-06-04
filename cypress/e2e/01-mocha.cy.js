@@ -1,5 +1,5 @@
 describe('La suite de test ' , () => {
- 
+    
     // Le before c'est un hook qui sera exécuter  avant le premier scenario de test    
     before(() => {
          cy.log('je suis dans le Before')
